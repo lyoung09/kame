@@ -55,6 +55,6 @@ contract Token {
          balance=balance + amt;
     }
     function withdrawBalance(int amt) public {
-         balance=balance * amt;
+         balance=balance -1- amt;
     }
 }
