@@ -18,5 +18,9 @@ contract KameToken{
          balance=balance - amt;
     }
 
+    function hoitBalance(int amt) public {
+         balance=balance - amt;
+    }
+
 
 }

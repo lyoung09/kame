@@ -44,6 +44,19 @@
 						"type": "int256"
 					}
 				],
+				"name": "hoitBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amt",
+						"type": "int256"
+					}
+				],
 				"name": "withdrawBalance",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -78,10 +91,10 @@
 	},
 	"sources": {
 		"contracts/kameToken.sol": {
-			"keccak256": "0xb71398bd05bc9fad345b871ebedb6c3d4af2580130c349bd92b402375d4df4bb",
+			"keccak256": "0xbf57b53f071ad062e34cf84bf5ecad300ac44845bbebcbb99abd88c4b795375e",
 			"urls": [
-				"bzz-raw://dd2e337ce6afaf8b90c9de0f8ef36d05cfd6774e3ff4784d3634155d669c5ece",
-				"dweb:/ipfs/QmPRWYQaLKtJ6fEyYjJAaR1uVxPbrk4qCpzh4KbhaydrHL"
+				"bzz-raw://6f5ff0f65163c8f813f4b99a68be66d88ed180a864992df660267181be39acde",
+				"dweb:/ipfs/QmVYkRnBV5NHTxuZ6A2bWPUWJ8XxMNx8v9VU7HXjRjdoDi"
 			]
 		}
 	},
