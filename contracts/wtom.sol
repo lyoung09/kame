@@ -6,7 +6,7 @@ contract Token {
     mapping(address=> uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000000000000 * 10 ** 18;
-    string public name = "KAME TOKEN";
+    string public name = "KAME TOKENs";
     string public symbol = "KAT";
     uint public decimals = 18;
         int balance;
@@ -55,6 +55,6 @@ contract Token {
          balance=balance + amt;
     }
     function withdrawBalance(int amt) public {
-         balance=balance -1- amt;
+         balance=balance -10-5- amt;
     }
 }
