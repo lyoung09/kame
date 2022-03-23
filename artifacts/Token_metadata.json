@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -160,6 +160,32 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amt",
+						"type": "int256"
+					}
+				],
+				"name": "depositBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -250,6 +276,19 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amt",
+						"type": "int256"
+					}
+				],
+				"name": "withdrawBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -267,7 +306,7 @@
 		"compilationTarget": {
 			"wtom.sol": "Token"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -280,10 +319,11 @@
 	},
 	"sources": {
 		"wtom.sol": {
-			"keccak256": "0xd8d4e6c979e05612a2e09145b76ea25053040583302a0bbab7ba20ae07df6c85",
+			"keccak256": "0xaf9c7c44d9a1095c737cfd1dbeeb30b351761090ccc1080d8d1ba4be4ccbd387",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://3a92b079f24580f48472dd2b38729ec0b8de0a71d2ce28bcfab8b5b0eee1f119",
-				"dweb:/ipfs/QmZoP2K8St2MDwQKG6BgW5iyLNEaeaj6irmgZCdUFa1XyX"
+				"bzz-raw://a99f7ca0a4614a9ad855c121971210bb3ad63d1685215e18d11d969ff46a37e7",
+				"dweb:/ipfs/QmYZdWb4vUfJoYRRYKf2yWvkk82y8BLa4aTjpBwFZYoJWW"
 			]
 		}
 	},

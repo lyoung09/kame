@@ -1,18 +1,22 @@
-pragma solidity ^0.8.7;
+//SPDX-License-Identifier: UNLICENSED
+
+pragma solidity >=0.7.4;
 
 contract Token {
     mapping(address=> uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000000000000 * 10 ** 18;
-    string public name = "Happy Token";
-    string public symbol = "HPT";
+    string public name = "KAME TOKEN";
+    string public symbol = "KAT";
     uint public decimals = 18;
+        int balance;
 
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
 
     constructor() {
         balances[msg.sender] = totalSupply;
+        balance=0;
     }
     
     function balanceOf(address owner) public view returns(uint) {
@@ -41,4 +45,16 @@ contract Token {
         emit Approval(msg.sender, spender, value);
         return true;
     } 
+
+    
+    function getBalance() view public returns(int){
+        return balance;
+    }
+
+    function depositBalance(int amt) public {
+         balance=balance + amt;
+    }
+    function withdrawBalance(int amt) public {
+         balance=balance - amt;
+    }
 }
