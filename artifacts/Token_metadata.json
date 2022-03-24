@@ -109,6 +109,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -304,7 +317,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"wtom.sol": "Token"
+			"contracts\\wtom.sol": "Token"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -318,12 +331,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"wtom.sol": {
-			"keccak256": "0xaf9c7c44d9a1095c737cfd1dbeeb30b351761090ccc1080d8d1ba4be4ccbd387",
+		"contracts\\wtom.sol": {
+			"keccak256": "0x635b52d48fc7933b078ce6df17c94516d74efebd4ad5aa63595c1802459a3b4a",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://a99f7ca0a4614a9ad855c121971210bb3ad63d1685215e18d11d969ff46a37e7",
-				"dweb:/ipfs/QmYZdWb4vUfJoYRRYKf2yWvkk82y8BLa4aTjpBwFZYoJWW"
+				"bzz-raw://e505d8b6752dcc3bf1c8c97ee6a9c86ac80c76dfe465f960d344798c5841a7ae",
+				"dweb:/ipfs/QmfP9M56EphqvgzXk7z6KNUke4F9VEJ8foVtRBVfAtbsJo"
 			]
 		}
 	},

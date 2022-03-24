@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -106,6 +106,19 @@
 					}
 				],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -304,9 +317,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"kame/contracts/wtom.sol": "Token"
+			"contracts/wtom.sol": "Token"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -318,12 +331,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"kame/contracts/wtom.sol": {
-			"keccak256": "0xddc44db01e469dc203f3806ca0011a248dd8805c51b9a2a2af61d3d5a0f8d540",
+		"contracts/wtom.sol": {
+			"keccak256": "0x635b52d48fc7933b078ce6df17c94516d74efebd4ad5aa63595c1802459a3b4a",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://bef2557453c9ad061f71660c32b286bd82f1de8dff46d75c6a753e804b6d5462",
-				"dweb:/ipfs/QmYnZMYbySXQWassznWpgM38DPEcyBHEk34oQpKgNxeY1p"
+				"bzz-raw://e505d8b6752dcc3bf1c8c97ee6a9c86ac80c76dfe465f960d344798c5841a7ae",
+				"dweb:/ipfs/QmfP9M56EphqvgzXk7z6KNUke4F9VEJ8foVtRBVfAtbsJo"
 			]
 		}
 	},

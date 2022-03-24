@@ -9,14 +9,16 @@ contract Token {
     string public name = "KAME TOKENs";
     string public symbol = "KAT";
     uint public decimals = 18;
-        int balance;
+    int public balance;
 
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
 
     constructor() {
+        
         balances[msg.sender] = totalSupply;
         balance=0;
+        
     }
     
     function balanceOf(address owner) public view returns(uint) {
@@ -54,7 +56,11 @@ contract Token {
     function depositBalance(int amt) public {
          balance=balance + amt;
     }
-    function withdrawBalance(int amt) public {
-         balance=balance -10-5- amt;
+
+    function hoit() view internal returns(address){
+        return msg.sender;
     }
+
+   
+   
 }
